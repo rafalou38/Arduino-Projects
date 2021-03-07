@@ -1,0 +1,26 @@
+{
+	"python.pythonPath": "C:\\Users\\Rafael\\anaconda3\\python.exe",
+	"cSpell.words": [
+		"leds"
+	],
+	"files.associations": {
+		"*.nmap": "log",
+		"*.config": "ruby",
+		"*.html": "html",
+		".env": "ini",
+		"*.lock": "ruby",
+		"*.vmx": "ini",
+		".go-my-posh.json": "jsonc",
+		"random": "cpp",
+		"delay.h": "c",
+		"fstream": "cpp",
+		"xutility": "cpp",
+		"*.tcc": "cpp",
+		"algorithm": "cpp",
+		"istream": "cpp",
+		"numeric": "cpp",
+		"streambuf": "cpp",
+		"type_traits": "cpp",
+		"adafruit_neopixel.h": "c"
+	}
+}
