@@ -1,7 +1,8 @@
 {
 	"python.pythonPath": "C:\\Users\\Rafael\\anaconda3\\python.exe",
 	"cSpell.words": [
-		"leds"
+		"leds",
+		"vout"
 	],
 	"files.associations": {
 		"*.nmap": "log",
@@ -21,6 +22,11 @@
 		"numeric": "cpp",
 		"streambuf": "cpp",
 		"type_traits": "cpp",
-		"adafruit_neopixel.h": "c"
+		"adafruit_neopixel.h": "c",
+		"memory": "cpp",
+		"system_error": "cpp",
+		"xmemory": "cpp",
+		"*.inc": "cpp",
+		"cmath": "cpp"
 	}
 }
