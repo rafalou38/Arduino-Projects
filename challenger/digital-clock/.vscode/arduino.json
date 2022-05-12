@@ -1,0 +1,6 @@
+{
+    "sketch": "digital-clock.ino",
+    "board": "arduino:avr:uno",
+    "output": "build",
+    "port": "COM4"
+}

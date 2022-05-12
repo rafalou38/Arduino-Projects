@@ -1,0 +1,6 @@
+{
+    "sketch": "laser.ino",
+    "board": "arduino:avr:uno",
+    "port": "COM4",
+    "programmer": "avrispmkii"
+}

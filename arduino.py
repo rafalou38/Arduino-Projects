@@ -25,8 +25,12 @@ def compile(sketch, fqbn):
 
 @arduino.command()
 @click.argument("sketch", required=False)
-@click.option("--port", default="COM3", help="the port of the arduino (COM3)")
-@click.option("--fqbn", default="arduino:avr:uno", help="the fqbn of the arduino (arduino:avr:uno)")
+@click.option("--port", default="COM4", help="the port of the arduino (COM4)")
+@click.option(
+    "--fqbn",
+    default="arduino:avr:uno",
+    help="the fqbn of the arduino (arduino:avr:uno)",
+)
 @click.pass_context
 def upload(ctx, sketch, port, fqbn):
     """upload a sketch to the arduino"""
@@ -50,12 +54,13 @@ def new(sketch):
     proc = subprocess.Popen([cli_exe, "sketch", "new", sketch])
     proc.wait()
 
+
 @arduino.command()
 @click.argument("port")
 @click.option("--baud_rate", default=9600, required=False)
 def serial(port, baud_rate):
     """open a serial monitor"""
-    proc = subprocess.Popen(['C:\Program Files\PuTTY\plink.exe', "-serial", port])
+    proc = subprocess.Popen(["C:\Program Files\PuTTY\plink.exe", "-serial", port])
     proc.wait()
 
 
